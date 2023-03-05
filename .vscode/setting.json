@@ -1,0 +1,13 @@
+{
+    "go.debugAdapter": "dlv-dap",
+    "go.delveConfig": {
+        "dlvLoadConfig": {
+            "followPointers": true,
+            "maxVariableRecurse": 1,
+            "maxStringLen": 64,
+            "maxArrayValues": 64,
+            "maxStructFields": -1
+        }
+    },
+    "debug.allowBreakpointsEverywhere": true
+}
